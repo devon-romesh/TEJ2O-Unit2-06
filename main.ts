@@ -5,7 +5,6 @@
  * This program will turn a light on and off with buttons. 
 */
 
-
 // clears screen then shows a happy face
 basic.clearScreen()
 basic.showIcon(IconNames.Happy)
