@@ -1,7 +1,7 @@
 """
 Created by: Devon
 Created on: Feb 2026
-This module is a Micro:bit MicroPython program.
+This module is a Micro:bit MicroPython program, it turns a light on and off. 
 """
 
 from microbit import *
