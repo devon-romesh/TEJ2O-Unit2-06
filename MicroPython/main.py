@@ -11,12 +11,12 @@ from microbit import *
 display.show(Image.HAPPY)
 pin16.write_digital(0)
 
-
 while True:
     # turns light on
     if button_a.is_pressed():
         pin16.write_digital(1)
         display.show(Image.YES)
+
     # turns light off
     if button_b.is_pressed():
         pin16.write_digital(0)
